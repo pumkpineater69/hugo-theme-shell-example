@@ -36,9 +36,9 @@ theme = "hugo-theme-shell"
   # Note:
   # Note: if you want to enable Mathjax, you need to set it to 0
   # Note: and set "math: true" at front matter in your Markdown file
-  ps1Delay = 0 # prompt speed : [userName]@[pcName]:~/$ , [userName]@[pcName]:~/[workDir]$
-  stdoutDelay = 0 # stdout speed : [description] , files in Params.Tree
-  commandDelay = 50 # command speed : cd [workDir] , cat [profile] , tree ./[folderName]/
+  ps1Delay = 20 # prompt speed : [userName]@[pcName]:~/$ , [userName]@[pcName]:~/[workDir]$
+  stdoutDelay = 20 # stdout speed : [description] , files in Params.Tree
+  commandDelay = 70 # command speed : cd [workDir] , cat [profile] , tree ./[folderName]/
 
   # terminalDelay = 20 : deprecated
 
@@ -57,7 +57,6 @@ theme = "hugo-theme-shell"
   Intelligent Automation  🪄 
   Internet-wide Scans ⚡ & Hacks
 
-  
   """
 
   # Note: If you want to use a Markdown file, you can use the following
@@ -70,5 +69,6 @@ theme = "hugo-theme-shell"
   # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
   files = [ 
     ["Research", "https://www.example.com/"],
-    ["Press", "https://www.example.com/"]
+    ["Press ", "https://www.example.com/"],
+    ["  ", " "]
   ]
