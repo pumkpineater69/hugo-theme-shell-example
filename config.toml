@@ -72,7 +72,7 @@ theme = "hugo-theme-shell"
     ["🔬 Research", "https://www.example.com/"],
     ["🎤 Press ", "https://www.example.com/"],
     ["📱 Twitter", "https://twitter.com/sybilscan"],
-    ["✉️ research@sybilscan.com", ""]
+    ["✉️ research@sybilscan.com", ""],
     [" ", " "]
   ]
   
