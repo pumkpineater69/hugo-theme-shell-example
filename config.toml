@@ -70,6 +70,15 @@ theme = "hugo-theme-shell"
   # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
   files = [ 
     ["Research", "https://www.example.com/"],
-    ["Press ", "https://www.example.com/"],
-    ["  ", " "]
+    ["Press ", "https://www.example.com/"]
   ]
+  
+  [Params.Tree]
+  use = true
+  folderName = "socials"
+  # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
+  files = [ 
+    ["Twitter", "https://twitter.com/sybilscan"],
+    ["Email", "mailto:research@sybilscan.com"]
+  ]
+
