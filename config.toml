@@ -53,9 +53,10 @@ theme = "hugo-theme-shell"
   # activityDelay = 5 : deprecated
 
   description = """
-  Security Research 🔍 
-  Intelligent Automation  🪄 
-  Internet-wide Scans ⚡ & Hacks
+
+  🔍 Security Research, 
+  🪄  Intelligent Automation, 
+  ⚡ Internet-wide Scans  & Hacks
 
   """
 
