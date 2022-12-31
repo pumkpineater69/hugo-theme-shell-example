@@ -2,6 +2,7 @@ baseURL = "https://hugo-theme-shell.netlify.app/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "hugo-theme-shell"
+name = "sybilscan"
 
 [Params]
     [Params.Terminal]
