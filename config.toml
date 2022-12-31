@@ -72,6 +72,6 @@ theme = "hugo-theme-shell"
     ["Research", "https://www.example.com/"],
     ["Press ", "https://www.example.com/"],
     ["Twitter", "https://twitter.com/sybilscan"],
-    ["Mail" : "research@sybilscan.com"]
+    ["Email", "research@sybilscan.com"]
   ]
   
