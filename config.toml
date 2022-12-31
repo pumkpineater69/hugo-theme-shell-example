@@ -1,12 +1,12 @@
-baseURL = "https://hugo-theme-shell.netlify.app/"
+baseURL = "https://golden-cascaron-8e6675.netlify.app/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Sybil Scan Research"
 theme = "hugo-theme-shell"
 
 
 [Params]
   # Note: This is for the meta description, which is different from the "description" displayed in the terminal.
-  description = "Jane Doe's Portfolio!"
+  description = "Sybil Scan"
   [Params.Terminal]
   # Note: color scheme
   # Note: You can choose between
@@ -26,10 +26,10 @@ theme = "hugo-theme-shell"
   # ./[folderName]/
   # ...
   # Note: result of the tree command
-  userName = "sybilscan"
-  pcName = "laptop"
-  workDir = "mydir"
-  profile = "profile.txt"
+  userName = "research"
+  pcName = "sybilscan"
+  workDir = "research"
+  profile = "about.txt"
 
   # Note: speed at which text is displayed on the terminal
   # Note: if set to 0, typing animation will be disabled
@@ -53,8 +53,10 @@ theme = "hugo-theme-shell"
   # activityDelay = 5 : deprecated
 
   description = """
-  Hi I am Jane Doe!
-  Nice to meet you!
+  Security Research 🔍 
+  Intelligent Automation  🪄 
+  Internet-wide Scans ⚡ & Hacks
+
   
   """
 
@@ -64,12 +66,10 @@ theme = "hugo-theme-shell"
 
   [Params.Tree]
   use = true
-  folderName = "my_activity"
+  folderName = "our_work"
   # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
   files = [ 
-    ["C/C++", "https://www.example.com/"],
-    ["Python", "https://www.example.com/"],
-    ["Go", "https://golang.org/"],
-    ["Hugo", "/post/some-activity.md"],
-    ["Docker", "/post/some-activity.md"],
+    ["Research", "https://www.example.com/"],
+    #["", "https://www.example.com/"],
+ ,
   ]
