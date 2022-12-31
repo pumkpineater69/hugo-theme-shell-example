@@ -29,7 +29,7 @@ theme = "hugo-theme-shell"
   userName = "research"
   pcName = "sybilscan"
   workDir = "research"
-  profile = "about.txt"
+  profile = "intro.txt"
 
   # Note: speed at which text is displayed on the terminal
   # Note: if set to 0, typing animation will be disabled
@@ -66,12 +66,13 @@ theme = "hugo-theme-shell"
 
   [Params.Tree]
   use = true
-  folderName = "(main ⚔️)"
+  folderName = "/home"
   # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
   files = [ 
     ["🔬 Research", "https://www.example.com/"],
     ["🎤 Press ", "https://www.example.com/"],
     ["📱 Twitter", "https://twitter.com/sybilscan"],
     ["✉️ research@sybilscan.com", ""]
+    [" ", " "]
   ]
   
