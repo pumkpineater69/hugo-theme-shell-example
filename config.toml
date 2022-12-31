@@ -1,4 +1,4 @@
-baseURL = "https://golden-cascaron-8e6675.netlify.app/"
+baseURL = ""
 languageCode = "en-us"
 title = "Sybil Scan"
 theme = "hugo-theme-shell"
@@ -36,9 +36,9 @@ theme = "hugo-theme-shell"
   # Note:
   # Note: if you want to enable Mathjax, you need to set it to 0
   # Note: and set "math: true" at front matter in your Markdown file
-  ps1Delay = 10 # prompt speed : [userName]@[pcName]:~/$ , [userName]@[pcName]:~/[workDir]$
-  stdoutDelay = 10 # stdout speed : [description] , files in Params.Tree
-  commandDelay = 50 # command speed : cd [workDir] , cat [profile] , tree ./[folderName]/
+  ps1Delay = 15 # prompt speed : [userName]@[pcName]:~/$ , [userName]@[pcName]:~/[workDir]$
+  stdoutDelay = 15 # stdout speed : [description] , files in Params.Tree
+  commandDelay = 60 # command speed : cd [workDir] , cat [profile] , tree ./[folderName]/
 
   # terminalDelay = 20 : deprecated
 
@@ -47,7 +47,7 @@ theme = "hugo-theme-shell"
   # Note: 
   # Note: if you want to enable Mathjax, you need to set it to 0
   # Note: and set "math: true" at front matter in your Markdown file
-  titleDelay = 0 # title speed : "title" in front matter
+  titleDelay = 1 # title speed : "title" in front matter
   contentDelay = 0 # content speed : content in .md file
 
   # activityDelay = 5 : deprecated
@@ -66,12 +66,12 @@ theme = "hugo-theme-shell"
 
   [Params.Tree]
   use = true
-  folderName = "our_work"
+  folderName = "(main ⚔️)"
   # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
   files = [ 
-    ["Research", "https://www.example.com/"],
-    ["Press ", "https://www.example.com/"],
-    ["Twitter", "https://twitter.com/sybilscan"],
-    ["research@sybilscan.com", " "]
+    ["🔬 Research", "https://www.example.com/"],
+    ["🎤 Press ", "https://www.example.com/"],
+    ["📱 Twitter", "https://twitter.com/sybilscan"],
+    ["✉️ research@sybilscan.com", ""]
   ]
   
