@@ -69,8 +69,7 @@ theme = "hugo-theme-shell"
   folderName = "links"
   # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
   files = [ 
-    ["🔬 Research", "https://www.example.com/"],
-    ["🎤 Press ", "https://www.example.com/"],
+    ["🛠️ Github", "https://github.com/sybil-scan"],
     ["📱 Twitter", "https://twitter.com/sybilscan"],
     ["✉️ research@sybilscan.com", ""],
     [" ", " "]
